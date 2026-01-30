@@ -1,0 +1,27 @@
+server {
+    listen 80;
+    server_name khabar.macad.dev www.khabar.macad.dev;
+
+    root /home/ubuntu/khabar;
+    index index.html;
+
+    # Include MIME types
+    include /etc/nginx/mime.types;
+    default_type application/octet-stream;
+
+    # Explicitly set MIME types for common files
+    types {
+        text/css css;
+        application/javascript js;
+        text/html html htm;
+    }
+
+    location / {
+        try_files $uri $uri/ =404;
+    }
+
+    location ~* \.(css|js|jpg|jpeg|png|gif|ico|svg|woff|woff2|ttf|eot)$ {
+        expires 30d;
+        add_header Cache-Control "public, immutable";
+    }
+}
