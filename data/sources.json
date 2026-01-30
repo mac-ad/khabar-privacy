@@ -35,6 +35,36 @@
         "url": "https://techmandu.com/feed/",
         "category": "local"
     },
+     {
+        "name": "Lumbini HimalayanTimes",
+        "slug": "lumbini-himalayantimes",
+        "url": "https://www.thehimalayantimes.com/rssFeed/15/32",
+        "category": "local"
+    },
+     {
+        "name": "Lumbini HimalayanTimes",
+        "slug": "lumbini-himalayantimes",
+        "url": "https://www.thehimalayantimes.com/rssFeed/15/32",
+        "category": "local"
+    },
+     {
+        "name": "Bagmati HimalayanTimes",
+        "slug": "bagmati-himalayantimes",
+        "url": "https://www.thehimalayantimes.com/rssFeed/15/30",
+        "category": "local"
+    },
+     {
+        "name": "Province 1 HimalayanTimes",
+        "slug": "province-1-himalayantimes",
+        "url": "https://www.thehimalayantimes.com/rssFeed/15/28",
+        "category": "local"
+    },
+      {
+        "name": "Karnali HimalayanTimes",
+        "slug": "karnali-1-himalayantimes",
+        "url": "https://www.thehimalayantimes.com/rssFeed/15/33",
+        "category": "local"
+    },
     {
         "name": "BBC News",
         "slug": "bbc-news",
