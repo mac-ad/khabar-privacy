@@ -42,12 +42,6 @@
         "category": "local"
     },
      {
-        "name": "Lumbini HimalayanTimes",
-        "slug": "lumbini-himalayantimes",
-        "url": "https://www.thehimalayantimes.com/rssFeed/15/32",
-        "category": "local"
-    },
-     {
         "name": "Bagmati HimalayanTimes",
         "slug": "bagmati-himalayantimes",
         "url": "https://www.thehimalayantimes.com/rssFeed/15/30",
